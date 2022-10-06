@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+img {
+    width: 280px;
+}
+
+.hero-section {
+    background-image: url(images/lagos-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #f5f5f5;
+    font-size: 1.2rem;
+    padding: 12rem;
+    text-shadow: 5px 5px 5px #000;
+}
+
+.hero_text {
+    background-color: #527c90ad;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 446px;
+    margin-top: 1rem;
+}
+
+.hero-section:hover {
+    background-image: url(https://media.giphy.com/media/Td3hLqo4OeFIXw0ZfR/giphy.gif);
+    cursor: pointer;
+}
+
+.activities {
+    background-color: #c2a89b6b;
+    padding: 4rem;
+}
+
+.round {
+    border-radius: 50%;
+    border: 5px solid #B9006B;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.art {
+    margin-top: 2rem;
+}
+
+.act_text {
+    font-size: 1.7rem;
+}
+
+.fun {
+    font-size: 1.3rem;
+}
+
+.fun_p {
+    font-size: 1.1rem;
+    padding: 5px 10px;
+}
+
+.fun, .fun_p, .act_text {
+    color: #B9006B;
+}
+
+.line {
+    height: 1px;
+    background-color: #B9006B;
+}
+
+.guide {
+    background-color: #c2a89b6b;
+    padding: 4rem;
+}
+
+.moa {
+    border-radius: 20px;
+}
+
+.guide_card {
+    display: flex;
+    justify-content: space-between;
+    width: 540px;
+    height: 200px;
+    background: linear-gradient(#C2A89B,#c2a89b6b);
+    padding: 3rem;
+    border-radius: 20px;
+    margin: 0 auto;
+    border-bottom: 10px solid #B9006B;
+    color: #B9006B;
+    margin-top: 2.5rem;
+}
+
+.right {
+    margin-left: -2rem;
+}
+
+
+@media screen and (max-width: 850px) {
+
+    .hero-section {
+        padding: 7rem;
+        font-size: 1rem;
+    }  
+    
+    .flex {
+        display: block;
+    }
+}
